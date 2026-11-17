@@ -1,0 +1,65 @@
+{
+  "stats": {
+    "n_pages_total": 392,
+    "n_pages_in_scope": 366,
+    "scope_pdf_pages": [
+      15,
+      380
+    ],
+    "pages_excluded_front_matter": 14,
+    "pages_excluded_index_and_back": 12,
+    "chars_raw_total": 692451,
+    "chars_clean_in_scope": 624472,
+    "words_clean_in_scope": 93643,
+    "avg_chars_per_page_raw": 1765,
+    "empty_pages": [
+      2,
+      144,
+      224,
+      318,
+      336
+    ],
+    "near_empty_pages_lt_200_chars": [
+      75,
+      144,
+      157,
+      192,
+      219,
+      224,
+      318,
+      336
+    ],
+    "footers_removed_pages": 354,
+    "linebreak_hyphenations_fixed": 736,
+    "u2010_hyphens_total": 736,
+    "kerning_splits_Y_ou_fixed": 110,
+    "ligature_chars_normalised": 0,
+    "code_cells_In_Out": 698,
+    "non_ascii_chars_after_cleaning": 185,
+    "chapters": {
+      "Chapter 1. Introduction": 24,
+      "Chapter 2. Supervised Learning": 106,
+      "Chapter 3. Unsupervised Learning and Preprocessing": 80,
+      "Chapter 4. Representing Data and Engineering Features": 40,
+      "Chapter 5. Model Evaluation and Improvement": 54,
+      "Chapter 6. Algorithm Chains and Pipelines": 18,
+      "Chapter 7. Working with Text Data": 34,
+      "Chapter 8. Wrapping Up": 10
+    },
+    "has_text_layer": true,
+    "chunking": {
+      "chunk_size": 500,
+      "overlap": 100,
+      "n_chunks": 367,
+      "tokenizer": "regex-approx (words+punctuation)",
+      "tokens_min": 48,
+      "tokens_median": 481,
+      "tokens_mean": 450.8,
+      "tokens_p95": 499,
+      "tokens_max": 500,
+      "tokens_total": 165459
+    }
+  },
+  "sample_page_pdf61_raw": "6 This is easy to see if you know some linear algebra.\ncombination of the features. But looking at one-dimensional data gives a somewhat\nskewed perspective. For datasets with many features, linear models can be very pow‐\nerful. In particular, if you have more features than training data points, any target y\ncan be perfectly modeled (on the training set) as a linear function.6\nThere are many different linear models for regression. The difference between these\nmodels lies in how the model parameters w and b are learned from the training data,\nand how model complexity can be controlled. We will now take a look at the most\npopular linear models for regression.\nLinear regression (aka ordinary least squares)\nLinear regression, or ordinary least squares (OLS), is the simplest and most classic lin‐\near method for regression. Linear regression finds the parameters w and b that mini‐\nmize the mean squared error between predictions and the true regression targets, y,\non the training set. The mean squared error is the sum of the squared differences\nbetween the predictions and the true values. Linear regression has no parameters,\nwhich is a benefit, but it also has no way to control model compl",
+  "sample_page_pdf61_clean": "6 This is easy to see if you know some linear algebra.\n\ncombination of the features. But looking at one-dimensional data gives a somewhat skewed perspective. For datasets with many features, linear models can be very powerful. In particular, if you have more features than training data points, any target y can be perfectly modeled (on the training set) as a linear function.6 There are many different linear models for regression. The difference between these models lies in how the model parameters w and b are learned from the training data, and how model complexity can be controlled. We will now take a look at the most popular linear models for regression.\n\nLinear regression (aka ordinary least squares)\n\nLinear regression, or ordinary least squares (OLS), is the simplest and most classic linear method for regression. Linear regression finds the parameters w and b that minimize the mean squared error between predictions and the true regression targets, y, on the training set. The mean squared error is the sum of the squared differences between the predictions and the true values. Linear regression has no parameters, which is a benefit, but it also has no way to control model complexi"
+}

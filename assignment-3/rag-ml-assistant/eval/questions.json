@@ -1,0 +1,231 @@
+{
+ "in_scope": [
+  {
+   "q": "What is overfitting and how does it relate to model complexity?",
+   "kw": [
+    "overfitting",
+    "complex",
+    "training set"
+   ],
+   "demo": true,
+   "sections": [
+    "generalization, overfitting, and underfitting",
+    "relation of model complexity to dataset size"
+   ]
+  },
+  {
+   "q": "How does the k-nearest neighbors algorithm make a prediction?",
+   "kw": [
+    "nearest neighbor",
+    "closest",
+    "training"
+   ],
+   "demo": true,
+   "sections": [
+    "k-nearest neighbors",
+    "building your first model: k-nearest neighbors",
+    "making predictions",
+    "evaluating the model"
+   ]
+  },
+  {
+   "q": "What is the difference between supervised and unsupervised learning?",
+   "kw": [
+    "supervised",
+    "unsupervised",
+    "known"
+   ],
+   "sections": [
+    "problems machine learning can solve",
+    "types of unsupervised learning",
+    "classification and regression"
+   ]
+  },
+  {
+   "q": "What is cross-validation and why is it used?",
+   "kw": [
+    "cross-validation",
+    "folds",
+    "generaliz"
+   ],
+   "demo": true,
+   "sections": [
+    "cross-validation",
+    "cross-validation in scikit-learn",
+    "benefits of cross-validation",
+    "stratified k-fold cross-validation and other strategies"
+   ]
+  },
+  {
+   "q": "How does grid search work for tuning model parameters?",
+   "kw": [
+    "grid search",
+    "parameters",
+    "gridsearchcv"
+   ],
+   "demo": true,
+   "sections": [
+    "grid search",
+    "simple grid search",
+    "the danger of overfitting the parameters and the validation set",
+    "grid search with cross-validation"
+   ]
+  },
+  {
+   "q": "How does a random forest reduce overfitting?",
+   "kw": [
+    "random forest",
+    "trees",
+    "overfit"
+   ],
+   "demo": true,
+   "sections": [
+    "generalization, overfitting, and underfitting",
+    "relation of model complexity to dataset size"
+   ]
+  },
+  {
+   "q": "What does the parameter C control in logistic regression and linear SVMs?",
+   "kw": [
+    "regularization",
+    "strength",
+    "linear"
+   ],
+   "sections": [
+    "linear models",
+    "kernelized support vector machines"
+   ]
+  },
+  {
+   "q": "What is principal component analysis (PCA)?",
+   "kw": [
+    "principal component",
+    "variance",
+    "directions"
+   ],
+   "demo": true,
+   "sections": [
+    "principal component analysis (pca)"
+   ]
+  },
+  {
+   "q": "How does the k-means clustering algorithm work?",
+   "kw": [
+    "k-means",
+    "cluster center",
+    "assign"
+   ],
+   "sections": [
+    "k-means clustering"
+   ]
+  },
+  {
+   "q": "What is the difference between precision and recall?",
+   "kw": [
+    "precision",
+    "recall",
+    "false positive"
+   ],
+   "demo": true,
+   "sections": [
+    "metrics for binary classification",
+    "evaluation metrics and scoring",
+    "keep the end goal in mind"
+   ]
+  },
+  {
+   "q": "What is a pipeline in scikit-learn and why use it?",
+   "kw": [
+    "pipeline",
+    "preprocessing",
+    "make_pipeline"
+   ],
+   "sections": [
+    "building pipelines",
+    "algorithm chains and pipelines",
+    "convenient pipeline creation with make_pipeline",
+    "using pipelines in grid searches",
+    "the general pipeline interface",
+    "parameter selection with preprocessing"
+   ]
+  },
+  {
+   "q": "Why do we need to scale features and which scalers are available?",
+   "kw": [
+    "standardscaler",
+    "minmaxscaler",
+    "scal"
+   ],
+   "sections": [
+    "preprocessing and scaling",
+    "different kinds of preprocessing",
+    "applying data transformations",
+    "scaling training and test data the same way",
+    "the effect of preprocessing on supervised learning"
+   ]
+  },
+  {
+   "q": "How is categorical data represented with one-hot encoding?",
+   "kw": [
+    "one-hot",
+    "categorical",
+    "dummy"
+   ],
+   "sections": [
+    "categorical variables",
+    "one-hot-encoding (dummy variables)",
+    "numbers can encode categoricals"
+   ]
+  },
+  {
+   "q": "What is the bag-of-words representation of text?",
+   "kw": [
+    "bag-of-words",
+    "countvectorizer",
+    "vocabulary"
+   ],
+   "demo": true,
+   "sections": [
+    "representing text data as a bag of words",
+    "applying bag-of-words to a toy dataset",
+    "bag-of-words for movie reviews"
+   ]
+  },
+  {
+   "q": "What does tf-idf do?",
+   "kw": [
+    "tf-idf",
+    "weight",
+    "document"
+   ],
+   "sections": [
+    "rescaling the data with tf-idf"
+   ]
+  },
+  {
+   "q": "What is the ROC curve and the AUC?",
+   "kw": [
+    "roc",
+    "false positive rate",
+    "auc"
+   ],
+   "sections": [
+    "metrics for binary classification"
+   ]
+  }
+ ],
+ "out_of_scope": [
+  {
+   "q": "Who won the 2018 FIFA World Cup?",
+   "demo": true
+  },
+  {
+   "q": "How do transformers use self-attention in large language models?",
+   "demo": true
+  },
+  {
+   "q": "Give me a recipe for chocolate cake.",
+   "demo": false
+  }
+ ]
+}

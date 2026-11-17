@@ -1,0 +1,150 @@
+{
+  "manifest": {
+    "embedding_backend": "tfidf",
+    "embedding_model": "tfidf",
+    "store": "sparse",
+    "n_chunks": 367,
+    "dim": 14964,
+    "chunk_size": 500,
+    "chunk_overlap": 100,
+    "embed_seconds": 0.13,
+    "min_score": 0.1,
+    "pdf": "intro-to-ml-book.pdf"
+  },
+  "k": {
+    "3": {
+      "hit_rate": 0.875,
+      "mrr": 0.844,
+      "precision": 0.667,
+      "keyword_coverage": 0.958,
+      "avg_context_tokens": 1348,
+      "per_question_hit": {
+        "What is overfitting and how does it relate to model complexity?": true,
+        "How does the k-nearest neighbors algorithm make a prediction?": true,
+        "What is the difference between supervised and unsupervised learning?": true,
+        "What is cross-validation and why is it used?": false,
+        "How does grid search work for tuning model parameters?": true,
+        "How does a random forest reduce overfitting?": false,
+        "What does the parameter C control in logistic regression and linear SVMs?": true,
+        "What is principal component analysis (PCA)?": true,
+        "How does the k-means clustering algorithm work?": true,
+        "What is the difference between precision and recall?": true,
+        "What is a pipeline in scikit-learn and why use it?": true,
+        "Why do we need to scale features and which scalers are available?": true,
+        "How is categorical data represented with one-hot encoding?": true,
+        "What is the bag-of-words representation of text?": true,
+        "What does tf-idf do?": true,
+        "What is the ROC curve and the AUC?": true
+      }
+    },
+    "5": {
+      "hit_rate": 0.938,
+      "mrr": 0.859,
+      "precision": 0.613,
+      "keyword_coverage": 0.979,
+      "avg_context_tokens": 2204,
+      "per_question_hit": {
+        "What is overfitting and how does it relate to model complexity?": true,
+        "How does the k-nearest neighbors algorithm make a prediction?": true,
+        "What is the difference between supervised and unsupervised learning?": true,
+        "What is cross-validation and why is it used?": true,
+        "How does grid search work for tuning model parameters?": true,
+        "How does a random forest reduce overfitting?": false,
+        "What does the parameter C control in logistic regression and linear SVMs?": true,
+        "What is principal component analysis (PCA)?": true,
+        "How does the k-means clustering algorithm work?": true,
+        "What is the difference between precision and recall?": true,
+        "What is a pipeline in scikit-learn and why use it?": true,
+        "Why do we need to scale features and which scalers are available?": true,
+        "How is categorical data represented with one-hot encoding?": true,
+        "What is the bag-of-words representation of text?": true,
+        "What does tf-idf do?": true,
+        "What is the ROC curve and the AUC?": true
+      }
+    },
+    "7": {
+      "hit_rate": 0.938,
+      "mrr": 0.859,
+      "precision": 0.607,
+      "keyword_coverage": 0.979,
+      "avg_context_tokens": 3136,
+      "per_question_hit": {
+        "What is overfitting and how does it relate to model complexity?": true,
+        "How does the k-nearest neighbors algorithm make a prediction?": true,
+        "What is the difference between supervised and unsupervised learning?": true,
+        "What is cross-validation and why is it used?": true,
+        "How does grid search work for tuning model parameters?": true,
+        "How does a random forest reduce overfitting?": false,
+        "What does the parameter C control in logistic regression and linear SVMs?": true,
+        "What is principal component analysis (PCA)?": true,
+        "How does the k-means clustering algorithm work?": true,
+        "What is the difference between precision and recall?": true,
+        "What is a pipeline in scikit-learn and why use it?": true,
+        "Why do we need to scale features and which scalers are available?": true,
+        "How is categorical data represented with one-hot encoding?": true,
+        "What is the bag-of-words representation of text?": true,
+        "What does tf-idf do?": true,
+        "What is the ROC curve and the AUC?": true
+      }
+    }
+  },
+  "chunking": [
+    {
+      "chunk_size": 300,
+      "overlap": 50,
+      "n_chunks": 612,
+      "mean_chunk_tokens": 257.8,
+      "hit_rate": 0.875,
+      "mrr": 0.833,
+      "precision": 0.637,
+      "keyword_coverage": 0.938,
+      "avg_context_tokens": 1296
+    },
+    {
+      "chunk_size": 500,
+      "overlap": 100,
+      "n_chunks": 367,
+      "mean_chunk_tokens": 450.8,
+      "hit_rate": 0.938,
+      "mrr": 0.859,
+      "precision": 0.613,
+      "keyword_coverage": 0.979,
+      "avg_context_tokens": 2204
+    },
+    {
+      "chunk_size": 800,
+      "overlap": 150,
+      "n_chunks": 219,
+      "mean_chunk_tokens": 754.9,
+      "hit_rate": 0.938,
+      "mrr": 0.906,
+      "precision": 0.588,
+      "keyword_coverage": 0.979,
+      "avg_context_tokens": 3803
+    },
+    {
+      "chunk_size": 1000,
+      "overlap": 200,
+      "n_chunks": 178,
+      "mean_chunk_tokens": 941.5,
+      "hit_rate": 0.938,
+      "mrr": 0.875,
+      "precision": 0.562,
+      "keyword_coverage": 1.0,
+      "avg_context_tokens": 4674
+    }
+  ],
+  "score_profile": {
+    "in_scope_top1": {
+      "min": 0.078,
+      "median": 0.183,
+      "max": 0.352
+    },
+    "out_of_scope_top1": {
+      "Who won the 2018 FIFA World Cup?": 0.09,
+      "How do transformers use self-attention in large language models?": 0.127,
+      "Give me a recipe for chocolate cake.": 0.0
+    },
+    "suggested_min_score": null
+  }
+}

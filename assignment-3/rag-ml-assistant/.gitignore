@@ -1,0 +1,16 @@
+# secrets
+.env
+# generated artefacts (rebuild with `python -m rag.cli build`)
+index/
+index_*/
+results/_tmp_*/
+# python / tooling
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+# the book is copyrighted: do not commit it
+data/*.pdf
